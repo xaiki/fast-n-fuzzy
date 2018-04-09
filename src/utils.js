@@ -1,4 +1,4 @@
-(function(global) {
+
     'use strict';
 
 	// ------ UTILITY FUNCTIONS ------
@@ -35,8 +35,7 @@
 		return Math.sqrt(s);
 	}
 
-	// Export functions
-	global.distanceBetweenVectors = distanceBetweenVectors;
-	global.sortByAttribute = sortByAttribute;
-
-})(this);
+module.exports = {
+	distanceBetweenVectors: distanceBetweenVectors,
+	sortByAttribute: sortByAttribute
+}
