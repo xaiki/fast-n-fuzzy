@@ -1,7 +1,7 @@
 {
   "name": "fast-n-fuzzy",
   "description": "Fast n' Fuzzy: A very fast algorithm to perform fuzzy string search that doesn't relies on edit distance algorithms (e.g. Levenshtein distance)",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": false,
   "author": "Alejandro M. Durante <alitto@gmail.com>",
   "contributors": [],
